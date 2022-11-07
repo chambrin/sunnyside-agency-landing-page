@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06f6b60a-975f-4a62-8cf5-884ff090c70c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style/scss/components/LandingPage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/scss/components/LandingPage.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/style/scss/components/Mobile_LandingPage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/scss/components/Mobile_LandingPage.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style/scss/layout/grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/scss/layout/grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style/scss/themes/colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/scss/themes/colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +55,7 @@
       <workItem from="1667757373421" duration="603000" />
       <workItem from="1667808571083" duration="7117000" />
       <workItem from="1667822724596" duration="2209000" />
-      <workItem from="1667847661376" duration="1909000" />
+      <workItem from="1667847661376" duration="2401000" />
     </task>
     <servers />
   </component>

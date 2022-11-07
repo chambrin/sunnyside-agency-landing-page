@@ -76,10 +76,17 @@ nav {
 
 .block-1 {
   background: url("../../../public/images/mobile/image-graphic-design.jpg") no-repeat center;
-
+  color: $Dark-desaturated ;
+  p{
+    color: $Dark-desaturated ;
+  }
 }
 .block-2 {
   background: url("../../../public/images/mobile/image-photography.jpg") no-repeat center;
+  color: $Dark-blue;
+  p{
+    color: $Dark-blue ;
+  }
 }
 .img-block {
   display: flex;
@@ -88,7 +95,5 @@ nav {
   background-size: 100%;
   background-position-y: top;
   height: 568px;
-  p{
-    color: black;
-  }
+
 }
