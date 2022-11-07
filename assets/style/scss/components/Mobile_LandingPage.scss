@@ -1,0 +1,26 @@
+@media (max-width:  720px) {
+  body {
+    background: #ff253a;
+  }
+  .nav-link {
+    display: none;
+  }
+  .landing{
+    background: url("../../../public/images/mobile/image-header.jpg");
+  }
+}
+
+nav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+.landing {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}

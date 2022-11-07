@@ -12,3 +12,15 @@ $grayish-blue: hsl(213, 9%, 39%);
 $grayish-blue:hsl(232, 10%, 55%);
 $Grayish-blue:hsl(210, 4%, 67%);
 $White:hsl(0, 0%, 100%);
+
+
+//Neutral all
+* {
+  font-family: 'Barlow', sans-serif;
+  ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+}

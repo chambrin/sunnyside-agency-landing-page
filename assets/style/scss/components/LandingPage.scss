@@ -1,0 +1,14 @@
+@media (min-width:  720px) {
+  body {
+    background: #fff;
+  }
+  .burger-menu {
+    display: none;
+  }
+}
+.nav-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  gap: 50px;
+}
