@@ -6,11 +6,15 @@
     display: none;
   }
   .landing{
-    background: url("../../../public/images/mobile/image-header.jpg");
+    background: url("../../../public/images/mobile/image-header.jpg") no-repeat center;
+    background-size: 100%;
+    background-position-y: bottom;
+    height: 65vh;
   }
 }
 
 nav {
+  z-index: 2;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
@@ -18,9 +22,12 @@ nav {
   padding: 0 40px;
 }
 .landing {
+  z-index: -1;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  height: 60vh;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }

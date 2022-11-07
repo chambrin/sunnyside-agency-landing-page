@@ -5,6 +5,13 @@
   .burger-menu {
     display: none;
   }
+  .landing{
+    background: url("../../../public/images/desktop/image-header.jpg") center no-repeat ;
+    background-size: 100%;
+    background-position-y: top;
+    height: 100vh;
+
+  }
 }
 .nav-container {
   display: flex;
