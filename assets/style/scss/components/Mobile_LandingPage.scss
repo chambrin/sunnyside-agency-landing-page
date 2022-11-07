@@ -1,7 +1,7 @@
+@import "../themes/colors";
+
 @media (max-width:  720px) {
-  body {
-    background: #ff253a;
-  }
+
   .nav-link {
     display: none;
   }
@@ -14,6 +14,18 @@
       margin-top: 100px;
     }
   }
+  // Main part
+  main {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-block {
+    img {
+      width: 100vw;
+    }
+  }
 }
 
 nav {
@@ -23,19 +35,60 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 0 40px;
+  background: #3EC0FF;
+
 }
 .landing {
   z-index: -1;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  position: absolute;
   top: 0;
   width: 100%;
   color: #fff;
   h1 {
     font-family: 'Fraunces', serif;
-    font-size: 60px;
+    font-size: 55px;
     text-align: center;
+  }
+}
+.text {
+  text-align: center;
+  padding: 60px 40px;
+  h2 {
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+  }
+  P {
+    color: $Grayish-blue;
+    font-size: 20px;
+  }
+  a {
+    font-family: 'Fraunces', serif;
+    color: black;
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-color: $Yellow;
+    font-weight: 900;
+  }
+}
+
+
+.block-1 {
+  background: url("../../../public/images/mobile/image-graphic-design.jpg") no-repeat center;
+
+}
+.block-2 {
+  background: url("../../../public/images/mobile/image-photography.jpg") no-repeat center;
+}
+.img-block {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  background-size: 100%;
+  background-position-y: top;
+  height: 568px;
+  p{
+    color: black;
   }
 }

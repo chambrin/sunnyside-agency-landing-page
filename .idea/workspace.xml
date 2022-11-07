@@ -8,6 +8,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/style/scss/components/LandingPage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/scss/components/LandingPage.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/style/scss/components/Mobile_LandingPage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/scss/components/Mobile_LandingPage.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style/scss/layout/grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/scss/layout/grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style/scss/themes/colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/scss/themes/colors.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/bundle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -57,7 +59,9 @@
       <option name="presentableId" value="Default" />
       <updated>1667757371853</updated>
       <workItem from="1667757373421" duration="603000" />
-      <workItem from="1667808571083" duration="6530000" />
+      <workItem from="1667808571083" duration="7117000" />
+      <workItem from="1667822724596" duration="2209000" />
+      <workItem from="1667847661376" duration="1909000" />
     </task>
     <servers />
   </component>

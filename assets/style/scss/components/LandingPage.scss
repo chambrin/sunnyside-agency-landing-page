@@ -1,3 +1,5 @@
+@import "../themes/colors";
+
 @media (min-width:  720px) {
   body {
     background: #fff;
@@ -21,4 +23,13 @@
   flex-flow: row nowrap;
   justify-content: center;
   gap: 50px;
+}
+
+#contact-btn {
+  background: #ffffff;
+  border: solid 0;
+  border-radius: 5px;
+  a{
+    color: $Dark-blue;
+  }
 }
