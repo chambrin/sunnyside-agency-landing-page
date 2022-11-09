@@ -34,7 +34,9 @@
     justify-content: center;
   }
  // Section bottom images
-
+ .img-section-desktop {
+  display: none;
+ }
  .img-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
