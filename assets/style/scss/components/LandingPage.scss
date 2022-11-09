@@ -17,7 +17,18 @@
       letter-spacing : 15px
     }
   }
-}
+    // Testimonial section desctop
+    .testimonial {
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: center;
+    }
+} 
+
+
+
+
 .nav-container {
   display: flex;
   flex-flow: row nowrap;

@@ -26,6 +26,14 @@
       width: 100vw;
     }
   }
+  // Testimonial section mobile
+  .testimonial-section {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+ 
 }
 
 nav {
@@ -73,7 +81,6 @@ nav {
   }
 }
 
-
 .block-1 {
   background: url("../../../public/images/mobile/image-graphic-design.jpg") no-repeat center;
   color: $Dark-desaturated ;
@@ -95,5 +102,48 @@ nav {
   background-size: 100%;
   background-position-y: top;
   height: 568px;
+}
 
+//Testimonial section 
+.testimonial-section {
+  h3 {
+    font-family: 'Fraunces', serif;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing : 5px;
+    color: $grayish-blue;
+  }
+}
+.testimonial-card {
+  display:flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center; 
+  padding: 30px;
+  text-align: center;
+  img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  .testimonial-text {
+    font-size: 20px;
+    color: $Dark-blue;
+   
+  }
+  .testimonial-name {
+    font-family: 'Fraunces', serif;
+    font-size: 20px;
+    color: $esaturated-blue;
+    font-weight: 900;
+    margin: 10px 0 0 0;
+    padding: 0;
+  }
+  .testimonial-jobs {
+    font-size: 20px;
+    color: $Grayish-blue;
+    margin: 0;
+    padding: 10px;
+  }
 }
