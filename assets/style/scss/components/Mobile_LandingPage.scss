@@ -1,7 +1,9 @@
 @import "../themes/colors";
 
 @media (max-width:  720px) {
-
+.display-desktop-img {
+  display: none;
+}
   .nav-link {
     display: none;
   }
