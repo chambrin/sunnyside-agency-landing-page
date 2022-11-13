@@ -39,6 +39,51 @@
         height: 100%;
       }
      }
+     // main part desktop
+.text {
+  text-align: center;
+  padding: 60px 40px;
+  h2 {
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+  }
+  P {
+    color: $Grayish-blue;
+    font-size: 20px;
+  }
+  a {
+    font-family: 'Fraunces', serif;
+    color: black;
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-color: $Yellow;
+    font-weight: 900;
+  }
+}
+
+.block-1 {
+  background: url("../../../public/images/mobile/image-graphic-design.jpg") no-repeat center;
+  color: $Dark-desaturated ;
+  p{
+    color: $Dark-desaturated ;
+  }
+}
+.block-2 {
+  background: url("../../../public/images/mobile/image-photography.jpg") no-repeat center;
+  color: $Dark-blue;
+  p{
+    color: $Dark-blue ;
+  }
+}
+.img-block {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  background-size: 100%;
+  background-position-y: top;
+  height: 568px;
+}
+//en main part
 } 
 
 
