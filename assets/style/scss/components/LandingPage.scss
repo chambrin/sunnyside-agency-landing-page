@@ -53,12 +53,10 @@
     grid-template-rows: 1fr;
     margin: 0;
     padding: 0;
-   
   }
   .main-bg-1 {
     background: url("../../../public/images/desktop/image-transform.jpg") center no-repeat;
-    background-size: 100%;
-    object-fit: contain;
+    object-fit: cover;
     background-position-y: top;
     margin: 0;
     padding: 0;
@@ -69,7 +67,6 @@
   .text {
     display: flex;
     flex-flow: column nowrap;
-    justify-content: center;
     padding: 60px 130px;
     h2 {
       font-family: "Fraunces", serif;
@@ -88,6 +85,19 @@
       font-weight: 900;
     }
   }
+
+  // container-2
+  .container-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: 0;
+    padding: 0;
+  }
+
+
+
+
 
   .block-1 {
     background: url("../../../public/images/mobile/image-graphic-design.jpg")
