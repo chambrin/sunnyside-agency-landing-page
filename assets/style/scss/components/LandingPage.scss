@@ -86,6 +86,7 @@
     }
   }
 
+
   // container-2
   .container-2 {
     display: grid;
@@ -95,11 +96,18 @@
     padding: 0;
   }
 
-
-
+// conatiner-3
+  .container-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: 0;
+    padding: 0;
+  }
 
 
   .block-1 {
+    text-align: center;
     background: url("../../../public/images/mobile/image-graphic-design.jpg")
       no-repeat center;
     color: $Dark-desaturated;
@@ -107,7 +115,9 @@
       color: $Dark-desaturated;
     }
   }
+
   .block-2 {
+    text-align: center;
     background: url("../../../public/images/mobile/image-photography.jpg")
       no-repeat center;
     color: $Dark-blue;
@@ -121,10 +131,9 @@
     justify-content: flex-end;
     background-size: 100%;
     background-position-y: top;
-    height: 568px;
+    height: 900px;
   }
   //END main part
-
 }
 
 .nav-container {
